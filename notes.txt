@@ -1,0 +1,4 @@
+GIT Command:
+git status
+git add <filename>
+git commit <filename> -m <commentwithoutspace>
