@@ -1,0 +1,57 @@
+body{
+    margin: 0; /* remove default margin of the browser */ /* cmd + / shortcut for command */
+    background: linear-gradient(to left bottom, lightgreen, lightpink, lightblue);
+    min-height: 100vh; /* 100% of the viewport height, set the height of the page/body to the size of browser*/
+    display: flex; /* bring body to center*/
+    justify-content: center; /*bring content to center horizantally.*/
+    align-items: center; /*bring content to center vertically, to do this we must define vh100*/
+    font-family: monospace;
+
+}
+
+.container{ /*container is class of div, so we can target container class in css*/
+background-color: rgba(255, 255, 255,.3); /* a i.e. alpha stands for transparency*/
+padding: 20px;
+box-shadow: 0 6px 10px rgba(0, 0, 0, .3); /* x-axis, y-axis, blurreness, color*, rgb 000 stands for black color*/
+border-radius: 15px;  /*round the corner*/
+width: 50%; /* container width */
+height: 50vh;
+text-align: center;
+color: darkgreen;
+}
+
+.heading{
+
+    font-size: 35px;
+    font-weight: 200; /*thickness of font*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .3); /*similar to box shadow*/
+    letter-spacing: 2px;
+}
+
+.joke{
+
+    font-size: 35px;
+    font-weight: 500;
+    margin: 40px;
+
+}
+
+.btn{
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .3);
+    border-color: rgba(255, 255, 255, .6);
+    width: 300px;
+    text-transform: uppercase;
+    color: darkgreen;
+
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, .6);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+    transition: all 300ms ease;
+}
